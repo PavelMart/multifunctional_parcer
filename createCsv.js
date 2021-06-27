@@ -1,6 +1,6 @@
 const createCsvWriter = require('csv-writer').createArrayCsvWriter;
 const csvWriter = createCsvWriter({
-    header: ['links', 'phones', 'adresses'],
+    header: ['title', 'links', 'phones', 'adresses'],
     path: './file.csv'
 });
  
